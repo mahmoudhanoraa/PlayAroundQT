@@ -14,8 +14,8 @@ install:
   - sudo cmake CMakeLists.txt
   - sudo make
   - sudo cp *.a /usr/lib
-  - cd ~
-	
+  - cd -	
+
 script:
   - source /opt/qt55/bin/qt55-env.sh
   - ls
