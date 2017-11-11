@@ -20,5 +20,5 @@ script:
   - source /opt/qt55/bin/qt55-env.sh
   - ls
   - sudo mkdir release && cd release
-  - /opt/qt55/bin/qmake ../TGTs/TGTs.pro -o Makefile
+  - /opt/qt55/bin/qmake ../TGTs/TGTs.pro
   - make
