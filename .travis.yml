@@ -19,6 +19,6 @@ install:
 script:
   - source /opt/qt55/bin/qt55-env.sh
   - ls
-  - sudo mkdir release && cd release
-  - qmake ../TGTs/TGTs.pro
+  - cd /TGTs
+  - qmake
   - make
