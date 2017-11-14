@@ -24,6 +24,11 @@ HEADERS +=  ../The_Snake/mainwindow.h \
 
 FORMS    += ../The_Snake/mainwindow.ui
 
+win32 {
+    INCLUDEPATH += ../path/to/gtest/includes
+    LIBS += -L../path/to/gtest/libraries -lgtest_dll \
+}
+
 unix {
 CONFIG+= link_pkgconfig
 PKGCONFIG += sfml-window
